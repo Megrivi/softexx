@@ -1,2 +1,26 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+string nome, endereco, cidade, nome do pai, nome da mae, renda bruta
+inteiro CPF, RG, idade
+double peso, renda bruta 
+
+escreva("digite seu nome")
+leia(nome)
+escreva("Digite seu enderço")
+leia(endereco)
+escreva("o nome da cidade")
+leia (cidade)
+escreva ("Digite seu CPF")
+leia (CPF)
+escreva ("digite o número do seu RG ")
+leia (RG)
+escreva ("Digite a sua idade")
+leia (idade)
+escreva ("o nome do seu pai")
+leia (nome do pai)
+escreva ("Digite o nome da sua mãe")
+leia (nome da mae)
+escreva ("digite seu peso")
+leia (peso)
+escreva ("digite sua renda bruta")
+leia (renda bruta)
+
+retorne nome + ("mora em") + endereco + ("na cidade de")+ cidade + ("inscrito no CPF sob o número") + CPF + ("inscrito no RG sob o número") + RG + ("sua mãe chama-se")+ nome da mae + ("seu pai chama-se") + nome do pai + ("tem o peso de") + peso ("KG") + ("possui renda bruta no valor de R$") + renda bruta ("reais")
