@@ -1,0 +1,2 @@
+# softexx
+ exercicios do curso
